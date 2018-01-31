@@ -19,5 +19,9 @@
   "dependencies": {
     "ilp-plugin-btp": "^1.1.6",
     "stripe": "^5.4.0"
+  },
+  "devDependencies": {
+    "ilp-packet": "^2.1.2",
+    "ilp-protocol-ildcp": "^1.0.0"
   }
 }
