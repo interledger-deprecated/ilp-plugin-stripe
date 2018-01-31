@@ -1,0 +1,23 @@
+{
+  "name": "ilp-plugin-stripe",
+  "version": "1.0.0",
+  "description": "Interledger plugin based on https://github.com/interledgerjs/ilp-plugin-btp and https://stripe.com/docs/api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michielbdejong/ilp-plugin-stripe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michielbdejong/ilp-plugin-stripe/issues"
+  },
+  "homepage": "https://github.com/michielbdejong/ilp-plugin-stripe#readme",
+  "dependencies": {
+    "ilp-plugin-btp": "^1.1.6",
+    "stripe": "^5.4.0"
+  }
+}
