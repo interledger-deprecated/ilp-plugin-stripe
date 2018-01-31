@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/michielbdejong/ilp-plugin-stripe#readme",
   "dependencies": {
-    "ilp-plugin-btp": "^1.1.6",
+    "ilp-plugin-btp": "interledgerjs/ilp-plugin-btp#mj-sendMoney",
     "stripe": "^5.4.0"
+  },
+  "devDependencies": {
+    "ilp-packet": "^2.1.2",
+    "ilp-protocol-ildcp": "^1.0.0"
   }
 }
